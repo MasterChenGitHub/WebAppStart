@@ -1,0 +1,23 @@
+{
+  "name": "master1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "eslint": "^5.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts-fdt": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer dist/js/main.*",
+    "dev": "react-scripts start",
+    "prebuild": "react-scripts check",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "serve -s dist -p 3001"
+  }
+}
